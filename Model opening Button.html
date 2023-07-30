@@ -7,16 +7,23 @@
     <style>
       /* Styling for the button */
 .styled-button {
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #635a5a;
   cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s;
+  margin: 35px 0;
 }
 
+.styled-button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
 .styled-button:hover {
   background-color: #0056b3;
 }
